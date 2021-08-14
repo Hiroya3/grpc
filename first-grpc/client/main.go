@@ -37,5 +37,5 @@ func main() {
 	if err != nil {
 		log.Fatalf("could not get born year, %v", err)
 	}
-	log.Printf("you were born in %v(before BHD in this year) or %v(after BHD in this year)", r.GetYearBeforeBHD(), r.GetYearAfterBHD())
+	log.Printf("you were born in\nbefore BHD in this year : %v\nafter  BHD in this year : %v", r.GetYearBeforeBHD(), r.GetYearAfterBHD())
 }
