@@ -1,6 +1,8 @@
 syntax = "proto3";
 
-option go_package = "./";
+option go_package = "github.com/Hiroya3/grpc/first-grpc/grpc-define;grpc_define";
+
+package grpc_define;
 
 // 年齢を受け、生まれた年を返す
 service BornYear{
