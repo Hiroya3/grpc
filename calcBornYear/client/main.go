@@ -2,7 +2,7 @@ package main
 
 import (
 	"context"
-	pb "github.com/Hiroya3/grpc/first-grpc/grpc-define"
+	pb "github.com/Hiroya3/grpc/calcBornYear/grpc-define"
 	"google.golang.org/grpc"
 	"log"
 	"os"

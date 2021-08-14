@@ -1,6 +1,6 @@
 syntax = "proto3";
 
-option go_package = "github.com/Hiroya3/grpc/first-grpc/grpc-define;grpc_define";
+option go_package = "github.com/Hiroya3/grpc/calcBornYear/grpc-define;grpc_define";
 
 package grpc_define;
 
