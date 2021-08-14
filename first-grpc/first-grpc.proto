@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+service BornYear{
+  rpc GetBornYear (Age) returns (Year) {}
+}
+
+message Age{
+  int32 age = 1;
+}
+
+message Year{
+  int32 year = 1;
+}
