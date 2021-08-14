@@ -24,7 +24,7 @@ func (b *server) GetBornYear(_ context.Context, age *pb.Age) (*pb.Year, error) {
 	if returnYear < 0 {
 		return nil, errors.New("you're not born")
 	}
-	return &pb.Year{Year: returnYear}, nil
+	return &pb.Year{YearBeforeBHD: returnYear - 1, YearAfterBHD: returnYear}, nil
 }
 
 func main() {

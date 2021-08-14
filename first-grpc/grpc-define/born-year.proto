@@ -13,6 +13,8 @@ message Age{
   int32 age = 1;
 }
 
+// 現在の年 - 年齢だと誕生日前後で生まれた年齢が変わるので2つ返す
 message Year{
-  int32 year = 1;
+  int32 yearBeforeBHD = 1;
+  int32 yearAfterBHD = 2;
 }
