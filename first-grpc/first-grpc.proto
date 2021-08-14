@@ -1,5 +1,6 @@
 syntax = "proto3";
 
+// 年齢を受け、生まれた年を返す
 service BornYear{
   rpc GetBornYear (Age) returns (Year) {}
 }
