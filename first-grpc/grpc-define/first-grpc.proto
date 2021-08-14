@@ -1,5 +1,7 @@
 syntax = "proto3";
 
+package firstGrpc;
+
 // 年齢を受け、生まれた年を返す
 service BornYear{
   rpc GetBornYear (Age) returns (Year) {}
